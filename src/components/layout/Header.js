@@ -1,7 +1,6 @@
 import React from "react";
 import { FaPizzaSlice } from "react-icons/fa";
 export const Header = () => {
-  let fart = "x";
   return (
     <header className="header">
       <nav>
