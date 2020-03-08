@@ -8,10 +8,14 @@ export const Header = () => {
           <img src="/images/logo" alt="Todoist" />
         </div>
         <div className="settings">
-          <li>+</li>
-          <li>
-            <FaPizzaSlice />
-          </li>
+          <ul>
+            <li data-testid="quick-add-task-action" className="settings">
+              +
+            </li>
+            <li data-testid="dark-mode-action" className="settings__darkmode">
+              <FaPizzaSlice />
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
